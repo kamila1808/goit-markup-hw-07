@@ -1,0 +1,141 @@
+.page-header {
+    border-bottom: 1px solid #ECECEC;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+
+.header {
+    background-color: var(--header-background-color);
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu-address {
+    display: flex;
+}
+
+
+.menu .menu-link.current {
+    color:var(--accent-color)
+}
+
+.menu .menu-link.current::after {
+  position: absolute;
+
+  display: block;
+  content: '';
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  margin-top: 28px;
+
+  background-color: var(--accent-color);
+
+}
+
+
+.menu-item:not(:last-child) {
+    margin-right:50px;
+}
+
+
+.menu-link {
+position: relative;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color:inherit;
+
+padding-top: 32px;
+padding-bottom: 32px;
+
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.menu-link:hover,
+.menu-link:focus {
+  color:var(--accent-color);
+}
+
+.menu-address-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.mail-address {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    
+    color: #757575; 
+
+    padding-top: 32px;
+    padding-bottom: 32px;  
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mail-address:hover,
+.mail-address:focus {
+    color:var(--accent-color);
+}
+
+.mail-address:hover .mail-address-icon,
+.mail-address:focus .mail-address-icon{
+    fill:var(--accent-color);
+}
+
+.mail-address-icon {
+    margin-right: 10px;
+    fill: #757575;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.phone-number {
+    display: flex;
+    align-items: center;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+ color: #757575;
+
+ padding-top: 32px;
+ padding-bottom: 32px;  
+
+ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.phone-number:hover,
+.phone-number:focus {
+    color:var(--accent-color);
+}
+
+
+.phone-number:hover .phone-number-icon,
+.phone-number:focus .phone-number-icon {
+    fill:var(--accent-color);
+}
+
+.phone-number-icon {
+    margin-right: 10px;
+    fill: #757575;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

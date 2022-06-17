@@ -468,14 +468,14 @@ body {
   padding-bottom: 0;
 }
 
-.advantages__list {
+.advantages-list {
   display: flex;
   flex: wrap;
   margin-top: -30px;
   margin-left: -30px;
 }
 
-.advantages__container {
+.advantages-list__container {
   width: 270px;
   height: 120px;
   display: flex;
@@ -485,18 +485,18 @@ body {
   background-color: #F5F4FA;
 }
 
-.advantages__item {
+.advantages-list__item {
   flex-basis: calc((100% - 120px) / 4);
   margin-top: 30px;
   margin-left: 30px;
   min-width: 270px;
 }
 
-.advantages__subtitle {
+.advantages-list__subtitle {
   margin-bottom: 10px;
 }
 
-.advantages__subtitle {
+.advantages-list__subtitle {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -504,7 +504,7 @@ body {
   text-transform: uppercase;
 }
 
-.advantages__description {
+.advantages-list__description {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -524,21 +524,21 @@ body {
   margin-bottom: 50px;
 }
 
-.services__list {
+.services-list {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
 }
 
-.services__item {
+.services-list__item {
   position: relative;
   flex-basis: calc((100% - 90px) / 3);
   margin-left: 30px;
   margin-top: 30px;
 }
 
-.services__description {
+.services-list__description {
   width: 100%;
   position: absolute;
   bottom: 0;
@@ -556,7 +556,7 @@ body {
   background: rgba(47, 48, 58, 0.8);
 }
 
-.our-team-title {
+.our-team__title {
   margin-bottom: 50px;
 }
 
@@ -567,13 +567,13 @@ body {
   margin-top: -30px;
 }
 
-.our-team-list-item {
+.our-team-list__item {
   flex-basis: calc((100% - 120px) / 4);
   margin-left: 30px;
   margin-top: 30px;
 }
 
-.our-team-content-wrapper {
+.our-team-list__content-wrapper {
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 32px;
@@ -588,7 +588,7 @@ body {
   background-color: #f5f4fa;
 }
 
-.our-team-title {
+.our-team__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -596,7 +596,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.our-team-subtitle {
+.our-team-list__subtitle {
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -605,7 +605,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.our-team-description {
+.our-team-list__description {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
@@ -620,7 +620,7 @@ body {
   justify-content: center;
 }
 
-.social-list-link {
+.social-list__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -630,19 +630,19 @@ body {
   border-radius: 50%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-list-link:hover, .social-list-link:focus {
+.social-list__link:hover, .social-list__link:focus {
   background-color: var(--accent-color);
 }
 
-.social-list-item:not(:last-child) {
+.social-list__item:not(:last-child) {
   margin-right: 10px;
 }
 
-.social-list-icon {
+.social-list__icon {
   fill: #afb1b8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-list-link:hover .social-list-icon, .social-list-link:focus .social-list-icon {
+.social-list__link:hover .social-list__icon, .social-list__link:focus .social-list__icon {
   fill: #ffffff;
 }
 

@@ -1,4 +1,4 @@
-.our-team-title {
+.our-team__title {
   margin-bottom: 50px;
 }
 
@@ -9,13 +9,13 @@
   margin-top: -30px;
 }
 
-.our-team-list-item {
+.our-team-list__item {
   flex-basis: calc((100% - 120px) / 4);
   margin-left: 30px;
   margin-top: 30px;
 }
 
-.our-team-content-wrapper {
+.our-team-list__content-wrapper {
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 32px;
@@ -33,7 +33,7 @@
   background-color: #f5f4fa;
 }
 
-.our-team-title {
+.our-team__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -41,7 +41,7 @@
   letter-spacing: 0.03em;
 }
 
-.our-team-subtitle {
+.our-team-list__subtitle {
   margin-bottom: 10px;
 
   font-weight: 500;
@@ -52,7 +52,7 @@
   letter-spacing: 0.03em;
 }
 
-.our-team-description {
+.our-team-list__description {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
@@ -69,7 +69,7 @@
   justify-content: center;
 }
 
-.social-list-link {
+.social-list__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -86,16 +86,16 @@
   }
 }
 
-.social-list-item:not(:last-child) {
+.social-list__item:not(:last-child) {
   margin-right: 10px;
 }
 
-.social-list-icon {
+.social-list__icon {
   fill: #afb1b8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  .social-list-link:hover &,
-  .social-list-link:focus & {
+  .social-list__link:hover &,
+  .social-list__link:focus & {
     fill: #ffffff;
   }
 }

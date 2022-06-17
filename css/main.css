@@ -111,11 +111,11 @@ body {
   padding-bottom: 25px;
 }
 
-.logo-2-theme-light {
+.logo--light {
   color: #212121;
 }
 
-.logo-2-theme-dark {
+.logo--dark {
   color: #FFFFFF;
 }
 
@@ -338,11 +338,11 @@ body {
   display: flex;
 }
 
-.menu .menu-link.current {
+.menu .menu__link.current {
   color: var(--accent-color);
 }
 
-.menu .menu-link.current::after {
+.menu .menu__link.current::after {
   position: absolute;
   display: block;
   content: "";
@@ -353,11 +353,11 @@ body {
   background-color: var(--accent-color);
 }
 
-.menu-item:not(:last-child) {
+.menu__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.menu-link {
+.menu__link {
   position: relative;
   font-weight: 500;
   font-size: 14px;
@@ -368,15 +368,15 @@ body {
   padding-bottom: 32px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.menu-link:hover, .menu-link:focus {
+.menu__link:hover, .menu__link:focus {
   color: var(--accent-color);
 }
 
-.menu-address-item:not(:last-child) {
+.menu-address__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.mail-address {
+.menu-address__mail {
   display: flex;
   align-items: center;
   font-weight: 500;
@@ -388,20 +388,20 @@ body {
   padding-bottom: 32px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.mail-address:hover, .mail-address:focus {
+.menu-address__mail:hover, .menu-address__mail:focus {
   color: var(--accent-color);
 }
 
-.mail-address-icon {
+.menu-address__icon {
   margin-right: 10px;
   fill: #757575;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.mail-address:hover .mail-address-icon, .mail-address:focus .mail-address-icon {
+.menu-address__mail:hover .menu-address__icon, .menu-address__mail:focus .menu-address__icon {
   fill: var(--accent-color);
 }
 
-.phone-number {
+.menu-address_phone-number {
   display: flex;
   align-items: center;
   font-weight: 500;
@@ -413,16 +413,16 @@ body {
   padding-bottom: 32px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.phone-number:hover, .phone-number:focus {
+.menu-address_phone-number:hover, .menu-address_phone-number:focus {
   color: var(--accent-color);
 }
 
-.phone-number-icon {
+.menu-address_phone-number__icon {
   margin-right: 10px;
   fill: #757575;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.phone-number:hover .phone-number-icon, .phone-number:focus .phone-number-icon {
+.menu-address_phone-number:hover .menu-address_phone-number__icon, .menu-address_phone-number:focus .menu-address_phone-number__icon {
   fill: var(--accent-color);
 }
 

@@ -121,11 +121,11 @@ body {
   color: #2196f3;
 }
 
-.logo--light {
+.logo_theme_light {
   color: #212121;
 }
 
-.logo--dark {
+.logo_theme_dark {
   color: #FFFFFF;
 }
 
@@ -348,11 +348,11 @@ body {
   display: flex;
 }
 
-.menu .menu__link.current {
+.menu .menu__link.menu__link_current {
   color: var(--accent-color);
 }
 
-.menu .menu__link.current::after {
+.menu .menu__link.menu__link_current::after {
   position: absolute;
   display: block;
   content: "";
@@ -512,7 +512,7 @@ body {
   color: #757575;
 }
 
-.services-title {
+.services__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -520,25 +520,25 @@ body {
   letter-spacing: 0.03em;
 }
 
-.services-title {
+.services__title {
   margin-bottom: 50px;
 }
 
-.services-list {
+.services__list {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
 }
 
-.services-list-item {
+.services__item {
   position: relative;
   flex-basis: calc((100% - 90px) / 3);
   margin-left: 30px;
   margin-top: 30px;
 }
 
-.services-images-description {
+.services__description {
   width: 100%;
   position: absolute;
   bottom: 0;

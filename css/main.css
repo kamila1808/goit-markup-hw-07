@@ -700,11 +700,11 @@ body {
   margin-top: 20px;
 }
 
-.footer-list-item:not(:last-child) {
+.footer-list__item:not(:last-child) {
   margin-bottom: 9px;
 }
 
-.footer-address {
+.footer-list__address {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -713,11 +713,11 @@ body {
   color: #ffffff;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-address:hover, .footer-address:focus {
+.footer-list__address:hover, .footer-list__address:focus {
   color: var(--accent-color);
 }
 
-.footer-list-link {
+.footer-list__link {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -726,7 +726,7 @@ body {
   color: rgba(255, 255, 255, 0.6);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-list-link:hover, .footer-list-link:focus {
+.footer-list__link:hover, .footer-list__link:focus {
   color: var(--accent-color);
 }
 
@@ -744,7 +744,7 @@ body {
   justify-content: center;
 }
 
-.footer-join-title {
+.footer-join__title {
   font-family: var(--main-font);
   font-weight: 700;
   font-size: 14px;
@@ -755,11 +755,11 @@ body {
   margin-bottom: 20px;
 }
 
-.footer-join-list-item:not(:last-child) {
+.footer-join-list__item:not(:last-child) {
   margin-right: 10px;
 }
 
-.footer-join-list-link {
+.footer-join-list__link {
   width: 44px;
   height: 44px;
   background-color: rgba(255, 255, 255, 0.1);
@@ -769,15 +769,15 @@ body {
   align-items: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-join-list-link:hover, .footer-join-list-link:focus {
+.footer-join-list__link:hover, .footer-join-list__link:focus {
   background-color: var(--accent-color);
 }
 
-.footer-join-list-icon {
+.footer-join-list__icon {
   fill: #ffffff;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-join-list-link:hover .footer-join-list-icon, .footer-join-list-link:focus .footer-join-list-icon {
+.footer-join-list__link:hover .footer-join-list__icon, .footer-join-list__link:focus .footer-join-list__icon {
   fill: #ffffff;
 }
 
@@ -785,7 +785,7 @@ body {
   margin-left: 93px;
 }
 
-.footer-mailing-action {
+.footer-mailing__action {
   font-family: var(--main-font);
   font-weight: 700;
   font-size: 14px;
@@ -800,7 +800,7 @@ body {
   margin-top: 20px;
 }
 
-.footer-mailing-input {
+.footer-mailing__input {
   min-width: 358px;
   padding: 15px 16px;
   background-color: var(--accent-background);
@@ -809,11 +809,11 @@ body {
   border-radius: 4px;
   color: #ffffff;
 }
-.footer-mailing-input::placeholder {
+.footer-mailing__input::placeholder {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-mailing-button {
+.footer-mailing__button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -834,7 +834,7 @@ body {
   color: #ffffff;
 }
 
-.footer-mailing-button-icon {
+.footer-mailing__icon {
   margin-left: 10px;
 }
 
